@@ -25,6 +25,10 @@
   }
 
   .nav-bar-anchor {
+    display: block !important;
+  }
+
+  .nav-bar-anchor {
     margin-right: 0;
     border: none !important;
   }

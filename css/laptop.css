@@ -69,7 +69,8 @@ body {
   border-left: 1px solid #dee2e6;
 }
 
-.nav-bar-img {
+.nav-bar-img,
+.nav-bar-anchor {
   display: inline-block;
 }
 
