@@ -3,22 +3,54 @@
     width: auto;
   }
 
-  #job-info {
-    padding-left: 1rem;
-  }
+  /* Banner */
 
   #banner {
-    height: 35vh;
+    height: 35vh !important;
   }
+
+  #banner p {
+    top: 60% !important;
+  }
+
+  #banner h1 {
+    text-align: center;
+    font-size: 28px !important;
+  }
+
+  /* Navbar */
+
+  .nav-bar-img {
+    display: none;
+  }
+
   .nav-bar-anchor {
     margin-right: 0;
     border: none !important;
   }
 
-  #banner h1 {
-    font-size: 24px !important;
+  /* Mô tả công việc */
+  #job-info {
+    padding-left: 1.5rem;
   }
 
+  .job {
+    padding-left: 2rem !important;
+  }
+
+  #target,
+  #personal-info {
+    padding: 20px 0 !important;
+    text-align: center;
+  }
+
+  #target p,
+  #personal-info ul {
+    text-align: start;
+    padding: 0 20px;
+  }
+
+  /* Chứng chỉ */
   .certificate-container .d-flex:nth-child(2) {
     border-left: none !important;
   }
@@ -30,8 +62,11 @@
 
   .certificate-container {
     width: 100% !important;
+    border-bottom: none !important;
+    padding: 0 10px !important;
   }
 
+  /* Dự án */
   .project-detail > *:nth-child(2) {
     display: flex;
     flex-direction: row !important;

@@ -54,7 +54,7 @@ body {
 #banner p {
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 45%;
   transform: translate(-50%, 50%);
   font-size: 12px;
   line-height: 1.7;
@@ -67,6 +67,10 @@ body {
 .nav-bar-anchor {
   padding: 20px;
   border-left: 1px solid #dee2e6;
+}
+
+.nav-bar-img {
+  display: inline-block;
 }
 
 .nav-bar-anchor:nth-child(2) {
@@ -164,12 +168,12 @@ a:hover {
   font-size: 24px;
 }
 
-.experience-container h1,
-.education-container h1,
-.activity-container h1,
-.hobby-container h1,
-.language-container h1,
-.skill-container h1 {
+.experience-container h2,
+.education-container h2,
+.activity-container h2,
+.hobby-container h2,
+.language-container h2,
+.skill-container h2 {
   align-self: center;
   letter-spacing: -0.5px;
   font-size: 20px;
@@ -255,7 +259,7 @@ dữ liệu của Sở thích */
 
 /* Chứng chỉ */
 
-.certificate-text h1 {
+.certificate-text h3 {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -269,6 +273,7 @@ dữ liệu của Sở thích */
 
 .certificate-container {
   border-bottom: 1px solid #d6c08d;
+  padding: 30px 10px;
 }
 
 .certificate-container:last-child {
@@ -337,9 +342,18 @@ table:last-child tr:last-child td {
   display: inline-block;
   font-size: 18px;
   color: #adb5bd;
+  margin-left: 10px;
+}
+
+.footer-ul li:first-child {
+  margin-left: 0;
 }
 
 .footer-icon {
   color: #228be6;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.social-text {
+  color: #228be6;
 }

@@ -3,11 +3,30 @@
     width: auto;
   }
 
+  /* Banner */
+  #banner {
+    height: 35vh !important;
+  }
+
+  #banner h1 {
+    font-size: 24px !important;
+  }
+
+  #banner p {
+    top: 55% !important;
+  }
+
+  /* Navbar */
   .nav-bar-anchor:nth-child(2) {
     margin-right: 0;
     border-right: 1px solid #dee2e6;
   }
 
+  .nav-bar-img {
+    display: none;
+  }
+
+  /* Mô tả */
   #target,
   #personal-info {
     padding-top: 40px;
@@ -18,6 +37,7 @@
     width: 20px;
   }
 
+  /* Chứng chỉ */
   .certificate-container .d-flex img {
     width: 200px !important;
   }
@@ -38,6 +58,7 @@
     border-left: 1px solid #d6c08d;
   }
 
+  /* Dự án */
   .project-detail > *:nth-child(2) {
     flex-direction: column;
     margin-left: 6px;
